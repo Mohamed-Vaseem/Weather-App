@@ -29,7 +29,7 @@ def get_weather(city, api_key):
         print("\nCity not found. Try again!")
 
 # Replace with your API key
-API_KEY = "37957664d995ac97bffd53f7323b77f5"
+API_KEY = "USE_YOUR_API_KEY"
 
 city = input("Enter city name: ")
 get_weather(city, API_KEY)
